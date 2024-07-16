@@ -1,0 +1,165 @@
+/* Custom styles */
+@font-face {
+  font-family: 'Belgant';
+  src: url('fonts/Belgant Aesthetic.otf'); /* Adjust the path and format as per your font file */
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  border-bottom: 1px solid #333;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #333;
+  border-right: 1px solid #333;
+  border-left: 1px solid #333;
+  background-color: #deeeff;
+}
+
+.nav-circle {
+  display: flex;
+  align-items: center;
+  font-family: 'Belgant';
+
+
+}
+
+.nav-circle a {
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #000000; /* Bootstrap primary color */
+  color: #fff;
+  margin-right: 80px;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.nav-circle a:hover {
+  background-color: #a2a2a2; /* Darker shade of primary color */
+  color: #ffffff;
+}
+
+.social-icons {
+  align-items: right;
+}
+
+.social-icons a {
+  margin-right: 10px;
+  font-size: 10px;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.sling-heading {
+  width: 100%;
+  text-align: center;
+  font-family: 'Belgant', serif; /* Use the NewYorker font here */
+  font-weight:100;
+  font-size: 7.4rem;
+  margin-top: -10px; /* Adjusted to overlap with border */
+  border-bottom: 1px solid #333;
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
+}
+
+.sling-heading span {
+  display: block;
+  padding: 10px;
+}
+
+
+.article-row {
+  display: flex; /* Use flexbox to display articles in a row */
+  flex-wrap: wrap;
+  justify-content:space-around;
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
+  border-bottom: 1px solid #333;
+}
+
+.article-container {
+  font-family:'Times New Roman', Times, serif;
+  width: calc(25% - 20px); /* Adjust width to fit four articles in a row */
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+/* Reset default link styles */
+.article-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+
+.article-details,
+.article-preview,
+.article-details h2 {
+  font-family:'Gill Sans', 'Gill Sans MT', sans-serif;
+  flex: 1;
+  padding: 10px;
+  margin-bottom: -35px;
+}
+
+.article-preview img {
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.article-preview h2 {
+  font-size: 25px;
+  font-family: 'Belgant';
+  font-weight: bold;
+  margin-bottom: -12px;
+}
+
+.article-preview p {
+  color: #7e7e7e;
+}
+
+.article-details p {
+  font-size: 16px;
+  margin-bottom: 55px ;
+  font-family:'Gill Sans', 'Gill Sans MT', sans-serif;
+}
+
+footer {
+  border-top: 1px solid #333;
+  padding-top: 10px;
+  text-align: center;
+}
+
+
+.article-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
+  justify-content: space-evenly;
+}
